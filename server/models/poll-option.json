@@ -12,7 +12,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "poll": {
+      "type": "belongsTo",
+      "model": "Poll",
+      "foreignKey": ""
+    },
+    "votes": {
+      "type": "hasMany",
+      "model": "Vote",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

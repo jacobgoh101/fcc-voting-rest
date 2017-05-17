@@ -7,7 +7,23 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "appUser": {
+      "type": "belongsTo",
+      "model": "AppUser",
+      "foreignKey": ""
+    },
+    "poll": {
+      "type": "belongsTo",
+      "model": "Poll",
+      "foreignKey": ""
+    },
+    "pollOption": {
+      "type": "hasOne",
+      "model": "PollOption",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

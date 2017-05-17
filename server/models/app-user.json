@@ -7,7 +7,18 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "polls": {
+      "type": "hasMany",
+      "model": "Poll",
+      "foreignKey": ""
+    },
+    "votes": {
+      "type": "hasMany",
+      "model": "Vote",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
