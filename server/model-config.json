@@ -34,5 +34,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "AppUser": {
+    "dataSource": "Mongo",
+    "public": true
+  },
+  "Poll": {
+    "dataSource": "Mongo",
+    "public": true
+  },
+  "PollOption": {
+    "dataSource": "Mongo",
+    "public": true
+  },
+  "Vote": {
+    "dataSource": "Mongo",
+    "public": true
   }
 }
